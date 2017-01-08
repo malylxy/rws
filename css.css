@@ -1,0 +1,112 @@
+body {
+   	background: url(https://media.giphy.com/media/3oEjHATVbg6mvFe5Og/giphy.gif);
+	background-color: black;
+	font-family: consolas;
+	color: white;
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+   	background-position: center; 
+	background-size:  100% 110%;
+	width:100%;
+    	height:100%;
+}
+
+#banner{
+	
+  	background: none;
+	width: 100%;
+	color: white;
+	float:top;
+}
+
+#log-in-form{
+  
+	position: absolute;
+	top: 0;
+	right:  0;
+	
+ }
+
+#log-in-user{display:inline;}
+
+#log-in-pass{display:inline;
+	}
+
+#log-in-button{
+	display:inline;}
+
+
+input {
+    background: black;
+    color: magenta;
+	font-family: consolas;
+	font-size: 69%;
+}
+
+button{
+ 	background: black;
+    	color: magenta;
+	font-family: consolas;
+	font-size: 69%;
+}
+
+
+#fakebook{
+	top:0;
+  	left:0;
+	position: absolute;
+	font-family: consolas;
+	font-size: 100%;
+}
+
+#fakebook:hover {
+color: magenta;
+}
+
+
+#sign-in-form{
+	
+	position: absolute;
+	top: 40%;
+	left:  50%;
+	text-align: center;
+	
+}
+
+iframe {
+		filter: invert(100%);
+		position:absolute;
+		left: 0;
+		top: 90%;
+	
+
+    -webkit-animation: fadeinout 14s linear forwards;
+    animation: fadeinout 14s linear forwards;
+    opacity: 0.2;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+
+
+
+
+
+		
+
+iframe:hover {
+	
+opacity: 1;
+}
+
+
+
+
+
+
